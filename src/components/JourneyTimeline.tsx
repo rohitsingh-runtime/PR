@@ -20,14 +20,13 @@ const milestones = [
   { id: 'projects', label: 'Projects', x: 9000, heading: 'Worked across multiple projects.', desc: 'From testing to delivery — contributing across\ndiverse products, teams, and challenges.', visual: 'projects', evolution: 0.50 },
   { id: 'skills', label: 'Skills', x: 10400, heading: 'Every challenge built a new skill.', desc: 'From execution to leadership — building skills across\ntechnology, management, and decision-making.', visual: 'skills', evolution: 0.55 },
   { id: 'pm', label: 'Achievements', x: 11800, heading: 'Efforts turned into outcomes.', desc: 'Consistent execution, fast turnaround, and on-time\ndelivery across multiple projects.', visual: 'pm', evolution: 0.62 },
-  { id: 'team', label: 'Team', x: 13200, heading: 'Guided by mentors. Supported by team.', desc: 'Aditya · Kiran · The Team', visual: 'team', evolution: 0.68 },
-  { id: 'challenges', label: 'Future', x: 14600, heading: 'Focused on what\'s next.', desc: 'From growing as a leader today\nto shaping technology tomorrow.', visual: 'challenges', evolution: 0.58 },
-  { id: 'current', label: 'Today', x: 16000, heading: 'Today, I lead projects, manage teams, and take ownership.', desc: '', visual: 'current', evolution: 0.88 },
-  { id: 'future', label: 'Vision', x: 18800, heading: 'Building towards the future.', desc: 'Driven by continuous learning,\nleadership, and long-term impact.', visual: 'future', evolution: 1.0 },
-  { id: 'final', label: '', x: 20200, heading: 'Rohit Kumar Singh', desc: 'Project Manager\nRuntime Solutions Pvt. Ltd.', visual: 'final', evolution: 1.0 },
+  { id: 'challenges', label: 'Future', x: 13200, heading: 'Focused on what\'s next.', desc: 'From growing as a leader today\nto shaping technology tomorrow.', visual: 'challenges', evolution: 0.72 },
+  { id: 'current', label: 'Today', x: 14600, heading: 'Today, I lead projects, manage teams, and take ownership.', desc: '', visual: 'current', evolution: 0.85 },
+  { id: 'team', label: 'Team', x: 16000, heading: 'Guided by mentors. Supported by team.', desc: 'Aditya · Kiran · The Team', visual: 'team', evolution: 0.92 },
+  { id: 'final', label: '', x: 17400, heading: 'Rohit Kumar Singh', desc: 'Project Manager\nRuntime Solutions Pvt. Ltd.', visual: 'final', evolution: 1.0 },
 ];
 
-const TRACK_TOTAL = 22000;
+const TRACK_TOTAL = 19200;
 const CHAR_POS = 0.22;
 
 /* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
@@ -760,28 +759,7 @@ function MilestoneVisual({ type }: { type: string }) {
       </div>
     );
   }
-  if (type === 'future') {
-    return (
-      <div style={{ textAlign: 'center', pointerEvents: 'auto' }}>
-        <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', marginBottom: '1rem' }}>
-          {['LEARN', 'LEAD', 'INNOVATE'].map((w, i) => (
-            <div key={i} style={{
-              padding: '0.7rem 1.6rem', borderRadius: '12px',
-              background: 'rgba(15,12,40,0.6)', border: `1px solid ${['#06B6D4', '#8B5CF6', '#F59E0B'][i]}25`,
-              color: ['#06B6D4', '#8B5CF6', '#F59E0B'][i], fontFamily: 'var(--font-heading)',
-              fontSize: '1rem', fontWeight: 700, letterSpacing: '0.12em',
-              textShadow: `0 0 18px ${['#06B6D4', '#8B5CF6', '#F59E0B'][i]}35`,
-              transition: 'transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out',
-            }}
-              onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-3px)'; e.currentTarget.style.boxShadow = `0 0 28px ${['#06B6D4', '#8B5CF6', '#F59E0B'][i]}25`; }}
-              onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = 'none'; }}
-            >{w}</div>
-          ))}
-        </div>
-        <div style={{ width: '80px', height: '1.5px', background: 'linear-gradient(90deg, transparent, #6366F1, transparent)', margin: '0 auto', opacity: 0.4 }} />
-      </div>
-    );
-  }
+
   if (type === 'final') {
     return (
       <div style={{ textAlign: 'center', padding: '1.4rem' }}>

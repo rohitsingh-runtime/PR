@@ -45,7 +45,7 @@ This script is designed to sync perfectly with your interactive cinematic journe
 ---
 
 ### Slide 5: The One-Year Evolution
-**[Action]** *Pause and let the audience read the three timeline cards (Months 1-3, Months 4-6, Post Internship, Today). You can click on them one by one if desired.*
+**[Action]** *Pause and let the audience read the three timeline cards. You can click on them one by one if desired.*
 
 **Speaker:**
 > "My journey over the past year has been one of rapid evolution. I didn't just stick to a single lane. In just one year, I explored multiple roles, learned how systems work, and transitioned from an intern... all the way to a Project Manager."
@@ -65,7 +65,7 @@ This script is designed to sync perfectly with your interactive cinematic journe
 ---
 
 ### Slide 7: Portfolio of Projects
-**[Action]** *Stop scrolling. Hover over a few projects (e.g., Attitude Living, Gresham Global) so they expand and scale up.*
+**[Action]** *Stop scrolling. Hover over a few projects so they expand and scale up.*
 
 **Speaker:**
 > "From testing, I expanded my scope to delivery. I have had the privilege to work across multiple critical projects—Attitude Living, Mill Mitra, Gresham Global, Amplify Chicago, and many more. I went from just testing features to entirely managing client communications and end-to-end delivery."
@@ -110,7 +110,7 @@ This script is designed to sync perfectly with your interactive cinematic journe
 ---
 
 ### Slide 11: Who I Am Today
-**[Action]** *Pause at the glowing text cards.*
+**[Action]** *Pause at the glowing LEAD, DECIDE, DELIVER cards.*
 
 **Speaker:**
 > "Today, my role transcends just tasks. I lead projects. I make decisions. I deliver results."
@@ -120,7 +120,7 @@ This script is designed to sync perfectly with your interactive cinematic journe
 ---
 
 ### Slide 12: The Team
-**[Action]** *Pause at the 3 avatars (Aditya, Kiran, Team).*
+**[Action]** *Pause at the 3 tall avatars representing Aditya, Kiran, and the Team.*
 
 **Speaker:**
 > "None of this rapid growth would have been possible in isolation. I want to take a moment to acknowledge the foundation of my success: I was guided by incredible mentors—Aditya and Kiran—and supported every single day by an amazing team."
@@ -130,7 +130,7 @@ This script is designed to sync perfectly with your interactive cinematic journe
 ---
 
 ### Slide 13: The Final Frame
-**[Action]** *Pause at the final destination. The character is now in a blazer, standing next to your name and title.*
+**[Action]** *Pause at the final destination. The character is now fully dressed in a blazer, standing under your name and title.*
 
 **Speaker:**
 > "My name is Rohit Kumar Singh. I am a Project Manager at Runtime Solutions. Thank you for being a part of my journey."
