@@ -22,7 +22,12 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: auto; overflow-x: hidden; }
+html { scroll-behavior: auto; overflow-x: hidden; font-size: 100%; }
+
+/* Scale down font sizes on ordinary laptops so projector optimization doesn't look overwhelming on regular screens */
+@media (max-width: 1440px) { html { font-size: 85%; } }
+@media (max-width: 1024px) { html { font-size: 75%; } }
+@media (max-width: 768px) { html { font-size: 90%; } } /* Mobile handled by explicit clamps mostly, but this gives a fallback */
 body {
   font-family: var(--font-body);
   background: var(--bg-primary);
